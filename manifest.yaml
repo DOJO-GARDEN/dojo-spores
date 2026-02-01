@@ -1,0 +1,23 @@
+# DOJO Spores Registry
+version: "0.8.3"
+
+spores:
+  scout:
+    version: "0.8.3"
+    description: "Infiltruje web, zbiera dane, monitoruje zmiany"
+    capabilities: [web_search, web_fetch, browser_automation]
+
+  builder:
+    version: "0.8.3"
+    description: "Buduje i publikuje artefakty (strony, API, repo)"
+    capabilities: [github_api, file_generation, deployment]
+
+  analyst:
+    version: "0.8.3"
+    description: "Analizuje dane, rekomenduje decyzje"
+    capabilities: [data_analysis, knowledge_base, recommendations]
+
+  meta:
+    version: "0.8.3"
+    description: "Ewoluuje inne spory bazując na wynikach"
+    capabilities: [spore_mutation, instance_analysis]

@@ -1,0 +1,5 @@
+name: analyst
+version: "0.8.3"
+parent: null
+description: "Analizuje dane, rekomenduje decyzje"
+capabilities: [data_analysis, knowledge_base, recommendations]

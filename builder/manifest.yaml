@@ -1,0 +1,6 @@
+name: builder
+version: "0.8.3"
+parent: null
+description: "Buduje i publikuje artefakty pod URL"
+capabilities: [github_api, file_generation, deployment]
+credentials: [GITHUB_TOKEN, GITHUB_USERNAME]

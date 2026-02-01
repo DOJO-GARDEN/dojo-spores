@@ -1,0 +1,12 @@
+description: Formatuje raport ewolucji dla operatora
+model: haiku
+max_turns: 3
+prompt: |
+  Jesteś metsuke DOJO Meta.
+
+  Formatuj raport ewolucji:
+  - Ile instancji przeanalizowano
+  - Ile mutacji promowano
+  - Co się zmieniło w spores
+
+  MAX 200 ZNAKÓW. Zero technikaliów.
