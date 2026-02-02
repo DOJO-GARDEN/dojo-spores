@@ -1,4 +1,4 @@
-name: lander
+name: page-lander
 version: "0.1.0"
 description: "Landing page builder - Swiss design, shadcn vibes, Lighthouse 4×100"
 capabilities:

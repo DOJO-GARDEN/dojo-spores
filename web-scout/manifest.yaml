@@ -1,4 +1,4 @@
-name: scout
+name: web-scout
 version: "0.8.3"
 parent: null
 description: "Infiltruje web, zbiera dane, monitoruje zmiany"

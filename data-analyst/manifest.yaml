@@ -1,4 +1,4 @@
-name: analyst
+name: data-analyst
 version: "0.8.3"
 parent: null
 description: "Analizuje dane, rekomenduje decyzje"
