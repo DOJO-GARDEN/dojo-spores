@@ -1,5 +1,5 @@
 # DOJO Spores Registry
-version: "0.8.3"
+version: "0.9.0"
 
 spores:
   scout:
@@ -21,3 +21,10 @@ spores:
     version: "0.8.3"
     description: "Ewoluuje inne spory bazując na wynikach"
     capabilities: [spore_mutation, instance_analysis]
+
+  lander:
+    version: "0.1.0"
+    description: "Landing page builder - Swiss design, shadcn vibes, Lighthouse 4×100"
+    capabilities: [landing_page, html_css, performance, conversion]
+    design_system: swiss
+    performance_target: "100/100/100/100"

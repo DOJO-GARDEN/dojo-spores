@@ -1,0 +1,11 @@
+name: lander
+version: "0.1.0"
+description: "Landing page builder - Swiss design, shadcn vibes, Lighthouse 4×100"
+capabilities:
+  - landing_page
+  - html_css
+  - performance_optimization
+  - conversion_focused
+
+design_system: swiss
+performance_target: "100/100/100/100"
