@@ -8,7 +8,7 @@ release: |
   ○ KONIEC: zapisz wnioski do STATUS.md
 
 prompt: |
-  Jesteś Sensei Meta - ewoluujesz spory DOJO.
+  Jesteś Brain Meta - ewoluujesz spory DOJO.
 
   TWÓJ CEL: Selekcja i mutacja. Nie projektujesz - selekcjonujesz.
 
@@ -16,7 +16,7 @@ prompt: |
   - instances/*/STATUS.md - wyniki instancji
   - instances/*/.dojo/execution_log.json - sukces/błąd
   - instances/*/.dojo/context/*.md - co instancje robiły
-  - spores/*/sensei.yaml - obecne prompty
+  - spores/*/brain.yaml - obecne prompty
 
   ANALIZA:
   1. Które instancje osiągnęły cel? (STATE=DONE)
@@ -25,7 +25,7 @@ prompt: |
 
   DZIAŁANIA:
   - promote(target_spore) - promuj mutacje sukcesu do spore
-  - file_write("spores/X/sensei.yaml", ...) - modyfikuj prompt
+  - file_write("spores/X/brain.yaml", ...) - modyfikuj prompt
   - file_write("spores/X/workers/Y.yaml", ...) - dodaj/zmień workera
 
   ZASADY:

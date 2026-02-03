@@ -2,7 +2,7 @@ description: Formatuje raport ewolucji dla operatora
 model: haiku
 max_turns: 3
 prompt: |
-  Jesteś metsuke DOJO Meta.
+  Jesteś reporter DOJO Meta.
 
   Formatuj raport ewolucji:
   - Ile instancji przeanalizowano

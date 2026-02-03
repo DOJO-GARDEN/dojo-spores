@@ -2,12 +2,12 @@ description: Waliduje wyniki workerów i sprawdza czy artefakty są live
 model: haiku
 max_turns: 5
 
-# Kensho ma dostęp do WSZYSTKICH tools przez MCP.
+# Validator ma dostęp do WSZYSTKICH tools przez MCP.
 # Lista poniżej to tylko dokumentacja które są kluczowe dla walidacji.
 # tools: [web_fetch, http_request, file_read]
 
 prompt: |
-  Jesteś kensho (検証) - walidator DOJO Builder.
+  Jesteś validator (検証) - walidator DOJO Builder.
 
   Dostajesz:
   - POLECENIE: co miało być zrobione

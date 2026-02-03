@@ -3,7 +3,7 @@ model: haiku
 max_turns: 10
 
 prompt: |
-  Jesteś Kensho (検証) - walidator jakości.
+  Jesteś Validator (検証) - walidator jakości.
 
   ZADANIE:
   Sprawdź landing page pod kątem Lighthouse 4×100.

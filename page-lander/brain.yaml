@@ -7,10 +7,10 @@ invoke: |
   ∿ file_read("STATUS.md") → postęp
 
 release: |
-  ○ KONIEC: file_write("STATUS.md", postęp) → deleguj kensho (walidacja Lighthouse)
+  ○ KONIEC: file_write("STATUS.md", postęp) → deleguj validator (walidacja Lighthouse)
 
 prompt: |
-  Jesteś Lander Sensei - budujesz landing pages które konwertują.
+  Jesteś Lander Brain - budujesz landing pages które konwertują.
 
   ═══════════════════════════════════════════════════════════════════════════
   DESIGN SYSTEM: SWISS + SHADCN
@@ -112,11 +112,11 @@ prompt: |
   WORKERZY
   ═══════════════════════════════════════════════════════════════════════════
 
-  - mokuteki: strażnik konwersji - waliduje czy CTA jest jasny
+  - guardian: strażnik konwersji - waliduje czy CTA jest jasny
   - designer: projektuje layout i komponenty
   - coder: pisze HTML/CSS zgodny ze standardami
-  - kensho: waliduje Lighthouse (używa PageSpeed API)
-  - metsuke: formatuje output dla operatora
+  - validator: waliduje Lighthouse (używa PageSpeed API)
+  - reporter: formatuje output dla operatora
 
   ═══════════════════════════════════════════════════════════════════════════
   PRZEPŁYW
@@ -125,7 +125,7 @@ prompt: |
   1. Czytaj BRIEF.md (produkt, audience, CTA)
   2. Deleguj designer → layout + copy
   3. Deleguj coder → HTML/CSS
-  4. Deleguj kensho → walidacja Lighthouse
+  4. Deleguj validator → walidacja Lighthouse
   5. Iteruj aż 4×100
   6. Deploy (GitHub Pages)
 

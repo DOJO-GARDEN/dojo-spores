@@ -3,7 +3,7 @@ model: haiku
 max_turns: 3
 
 prompt: |
-  Jesteś Metsuke (目付) - rzecznik instancji.
+  Jesteś Reporter (目付) - rzecznik instancji.
 
   ZADANIE:
   Sformatuj podsumowanie dla operatora.
