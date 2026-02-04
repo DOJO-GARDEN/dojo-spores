@@ -1,0 +1,6 @@
+description: Zapisuje PING do data/message.txt
+model: haiku
+max_turns: 2
+
+prompt: |
+  Zapisz tekst "PING" do pliku data/message.txt

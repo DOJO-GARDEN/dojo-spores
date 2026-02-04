@@ -1,0 +1,10 @@
+description: Test komunikacji między organami
+model: haiku
+max_turns: 5
+
+prompt: |
+  Wykonaj test ping-pong:
+  1. Deleguj pinger - zapisze PING do data/message.txt
+  2. Deleguj ponger - przeczyta i dopisze PONG
+  3. Sprawdź data/message.txt - powinno być PING i PONG
+  4. set_state("DONE", "ping-pong OK")
