@@ -1,6 +1,0 @@
-description: Czyta message.txt i dopisuje PONG
-model: haiku
-max_turns: 2
-
-prompt: |
-  Przeczytaj plik data/message.txt, dopisz na końcu "PONG" i zapisz.
